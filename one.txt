@@ -1,3 +1,12 @@
 第一:测试使用
 第二:克隆文件成功
 第三:再次上传文件
+第四次:git clone ssh
+cd 路径
+git add one.txt
+git commit -m "2018-02-05 third commit for chanwangda"
+git log (可以参看版本和上传的信息及版本id)
+git reset --hard 版本id（会回退到之前版本，但是git log中不在显示之前最后提交的版本，只显示到回退的版本为最后版本）
+git log
+git commit -m "2018-02-05 third commit for chanwangda"
+git add one.txt
