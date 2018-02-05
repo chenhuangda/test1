@@ -10,3 +10,4 @@ git reset --hard 版本id（会回退到之前版本，但是git log中不在显示之前最后提交的版
 git log
 git commit -m "2018-02-05 third commit for chanwangda"
 git add one.txt
+git push -u origin master （提交到数据仓库，只有这样github中的数据才会更新）
