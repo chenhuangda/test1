@@ -11,3 +11,10 @@ git log
 git commit -m "2018-02-05 third commit for chanwangda"
 git add one.txt
 git push -u origin master （提交到数据仓库，只有这样github中的数据才会更新）
+git branch （查看所有分支和主体）
+git branch 分支名（创建分支）
+git checkout 分支名 （切换分支）
+git merge 分支名 （合并分支上的内容到当前分支）
+git branch -d 分支名 （删除分支）
+目前知道分支上的内容推送到远程仓库是单独放在一个地方的，如果想要在master当中也有相同的数据更新，需要在master当中也经行文件最后一部的推送。
+最后就完成了！
